@@ -1,0 +1,19 @@
+<!-- Creating the <head> section for the HTML page with metadata and links to external resources. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bouncing Ball Animation</title>
+<style>
+  canvas {
+    border: 1px solid black;
+  }
+</style>
+</head>
+<body>
+<canvas id="canvas" width="400" height="300"></canvas>
+<script>
+  // Set up HTML canvas for animation
+  const canvas = document.getElementById('canvas');
+  const ctx = canvas.getContext('2d');
