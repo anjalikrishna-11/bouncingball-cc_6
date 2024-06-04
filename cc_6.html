@@ -17,3 +17,14 @@
   // Set up HTML canvas for animation
   const canvas = document.getElementById('canvas');
   const ctx = canvas.getContext('2d');
+  
+  // Create Ball constructor with initial properties
+  class Ball {
+    constructor(x, y, radius, dx, dy, color) {
+      this.x = x;
+      this.y = y;
+      this.radius = radius;
+      this.dx = dx;
+      this.dy = dy;
+      this.color = color;
+    }
